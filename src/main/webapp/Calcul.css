@@ -1,0 +1,95 @@
+
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+/* стиль для вводного поля */
+.input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  text-align: right;
+
+  /*padding: 0;*/
+}
+
+/* стиль для кнопок */
+.number {
+  position: relative;
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  line-height: 2em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 900;
+  color: #000;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;
+}
+.number:hover {
+  background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+  box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}
+.number:active {
+  background: none;
+  box-shadow: 0 0 0 1px #bbb inset, 0 1px 3px rgba(0,0,0,.5) inset, 0 1px 2px #fff;
+}
+
+ /* стиль для кнопки = (равно) */
+.equal {
+  position: relative;
+  display: inline-block;
+  width: 8em;
+  height: 4em;
+  line-height: 2em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 900;
+  color: #000;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;
+}
+
+.equal:hover {
+  background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+  box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}
+.equal:active {
+  background: none;
+  box-shadow: 0 0 0 1px #bbb inset, 0 1px 3px rgba(0,0,0,.5) inset, 0 1px 2px #fff;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
